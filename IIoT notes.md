@@ -9,10 +9,19 @@
 On PowerShell execute: 
 
 `Set-ExecutionPolicy Unrestricted `
+This command enable npm scripts on Windows
 
+Then install node red using command npm 
+ 
+ ` npm install -g --unsafe-perm node-red `
 
-ds
+On then you have node red server in your machine
 
+run terminal powershell using the following command
+
+`node-red`
+
+The server are running in:  Server now running at http://127.0.0.1:1880/
 
 
 

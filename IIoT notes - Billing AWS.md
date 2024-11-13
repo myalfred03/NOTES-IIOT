@@ -1,30 +1,22 @@
-**IIoT notes**
+**IIoT Billing AWS**
 
 ![alt text](<Screenshot%202024-11-10%20164531.png>)
 
-*First install node Red program* 
+Billing 
 
-- https://nodejs.org/dist/v22.11.0/node-v22.11.0-x64.msi
-
-On PowerShell execute: 
-
-`Set-ExecutionPolicy Unrestricted `
-This command enable npm scripts on Windows
-
-Then install node red using command npm 
- 
- ` npm install -g --unsafe-perm node-red `
-
-On then you have node red server in your machine
-
-run terminal powershell using the following command
-
-`node-red`
-
-The server are running in:  Server now running at http://127.0.0.1:1880/
+- *Basic support - Free* 
+Recommended for new users just getting started with AWS
+24x7 self-service access to AWS resources
+For account and billing issues only
+Access to Personal Health Dashboard & Trusted Advisor
 
 
+Philosphy
 
+![data](<CORE IOT.png>)
+
+
+Which to choice?
 
 
 

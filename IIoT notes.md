@@ -23,8 +23,15 @@ run terminal powershell using the following command
 
 The server are running in:  Server now running at http://127.0.0.1:1880/
 
+**Database**
 
+How to connect with database?
 
+Install MySql server
+- https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+Custom Install 
+- https://www.youtube.com/watch?v=u96rVINbAUI
 
 
 

@@ -55,4 +55,31 @@ SELECT * FROM training.info where id= 2;
 SELECT * FROM training.info where Country = "Nicaragua";
 
 SELECT * FROM training.info where Age > 20;
+ 
+SELECT Avg(Age) As `Average age` FROM training.info;
+
+SELECT * FROM training.info ORDER by Name Desc;
  ```
+
+**Update**
+
+```
+
+UPDATE `training`.`info` SET `Name` = "Alfred" WHERE `id` = 2;
+
+UPDATE `training`.`info` SET `Age` = 30 WHERE `id` = 2;
+
+Select * From `training`.`info`;
+
+``` 
+
+**Delete**
+
+```
+DELETE From training.info where id=2;
+
+DELETE From training.info; "Be careful, you can erase all data"
+```
+Learn more querys
+
+` https://www.w3schools.com/sql/default.asp`

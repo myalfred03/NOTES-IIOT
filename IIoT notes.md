@@ -23,6 +23,23 @@ run terminal powershell using the following command
 
 The server are running in:  Server now running at http://127.0.0.1:1880/
 
+If you Want to deploy 2 or more project in node-red, you need to edit this config.
+
+`C:\Users\userx\.node-red\settings.js`
+
+Edit this file and enable this parameter: 
+
+```
+   editorTheme: {
+       projects: {
+           enabled: true
+       }
+   },
+
+```
+You'll be able to deploy two or more project.
+
+
 **Database**
 
 How to connect with database?
@@ -32,6 +49,7 @@ Install MySql server
 
 Custom Install 
 - https://www.youtube.com/watch?v=u96rVINbAUI
+
 
 
 

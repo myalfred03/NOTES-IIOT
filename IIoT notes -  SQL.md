@@ -83,3 +83,18 @@ DELETE From training.info; "Be careful, you can erase all data"
 Learn more querys
 
 ` https://www.w3schools.com/sql/default.asp`
+
+**Insert From Form to Mysql**
+
+```
+var id = msg.payload.id;
+var name = msg.payload.Name;
+var age = msg.payload.Age;
+var country = msg.payload.Country;
+var height = msg.payload.Height;
+
+
+
+msg.topic = ' INSERT INTO`training`.`info` (`id`,`Name`, `Age`, `Country`, `Height`) VALUES ('+id+', "'+name+'",  '+age+', "'+country+'", '+height+'); ';
+return msg;
+```

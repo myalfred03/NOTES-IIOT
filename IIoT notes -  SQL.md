@@ -99,6 +99,66 @@ msg.topic = ' INSERT INTO`training`.`info` (`id`,`Name`, `Age`, `Country`, `Heig
 return msg;
 ```
 
+**Select to show in a table custom HTML**
+
+```
+<html>
+
+<head> 
+    <style>
+        #history {
+            th,
+            td border: 1px solid black;
+            border-collapse: collapse;
+            font-family: "Arial";
+            width: 100%;
+            
+        }
+
+        #history td,
+        #history th {
+            border: 1px solid #000000;
+            padding: 8px;
+            
+        }
+
+        #history tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        #history tr:hover {
+            background-color: #73E0FD;
+        }
+
+        #history th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #A8E7FC;
+            color: black;
+        }
+
+
+    </style>
+    
+    </head>
+
+<body>
+    <table id= "history" border="1">
+         <tr align="center">
+             <th>id</th>
+              <th>Name</th>
+               <th>Age</th>
+                </tr>
+                 <tbody>
+                     <tr align="center" ng-repeat="row in msg.payload">
+                         <td ng-repeat="item in row"> {{item}} </td>
+                          </tr>
+                </tbody>
+        </table>
+```
+
+
 ## Data flow
 ```mermaid
 graph LR

@@ -98,3 +98,9 @@ var height = msg.payload.Height;
 msg.topic = ' INSERT INTO`training`.`info` (`id`,`Name`, `Age`, `Country`, `Height`) VALUES ('+id+', "'+name+'",  '+age+', "'+country+'", '+height+'); ';
 return msg;
 ```
+
+## Data flow
+```mermaid
+graph LR
+A[Random/PLC values] --Write--> B[MySQL] --Read--> C[Node-RED Chart] 
+```

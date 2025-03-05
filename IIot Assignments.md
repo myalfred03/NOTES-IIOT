@@ -16,3 +16,5 @@ Analyze in link which platform is the best to deploy a dashboard custom on EC2 A
 https://jansutris10.medium.com/open-source-internet-of-things-iot-platforms-9afd187465ca
 
 In general this platform are build using a kind of programming language like Java, node Js, etc. For case of ThingsBoard is Java programming Language.
+
+Is the best way using platforms or deploy a web services for scratch?

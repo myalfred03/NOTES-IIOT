@@ -1,4 +1,5 @@
-Workbench MySql:
+**Timestream / Grafana**
+
 **Select From Timestream**
 
 ```
